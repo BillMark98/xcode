@@ -1,0 +1,8 @@
+This is the first time I use terminal to
+create a text file. 
+o
+Is this another line?
+A
+what about this one? I type A
+a
+And that I type a 

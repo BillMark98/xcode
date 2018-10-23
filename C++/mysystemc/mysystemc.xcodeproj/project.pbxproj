@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A936F7AF1FE7CDFB002F8C6E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A936F7AE1FE7CDFB002F8C6E /* main.cpp */; };
+		A936F7C01FEAE976002F8C6E /* libsystemc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A936F7BF1FEAE975002F8C6E /* libsystemc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A936F7A91FE7CDFB002F8C6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A936F7AB1FE7CDFB002F8C6E /* mysystemc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mysystemc; sourceTree = BUILT_PRODUCTS_DIR; };
+		A936F7AE1FE7CDFB002F8C6E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A936F7B61FEAE1AD002F8C6E /* libsystemc-2.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsystemc-2.3.2.dylib"; path = "../../../../Downloads/systemc-2.3.2/lib-macosx64/libsystemc-2.3.2.dylib"; sourceTree = "<group>"; };
+		A936F7B81FEAE256002F8C6E /* libsystemc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystemc.a; path = "../../../../../../usr/local/systemc/lib-macosx64/libsystemc.a"; sourceTree = "<group>"; };
+		A936F7BA1FEAE266002F8C6E /* libsystemc-2.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsystemc-2.3.2.dylib"; path = "../../../../../../usr/local/systemc/lib-macosx64/libsystemc-2.3.2.dylib"; sourceTree = "<group>"; };
+		A936F7BD1FEAE319002F8C6E /* lib-macosx64 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "lib-macosx64"; path = "../../../../../../usr/local/systemc/lib-macosx64"; sourceTree = "<group>"; };
+		A936F7BF1FEAE975002F8C6E /* libsystemc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsystemc.a; path = "../../../../../../Library/SystemC/systemc-2.2.0/libsystemc.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A936F7A81FE7CDFB002F8C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A936F7C01FEAE976002F8C6E /* libsystemc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A936F7A21FE7CDFB002F8C6E = {
+			isa = PBXGroup;
+			children = (
+				A936F7AD1FE7CDFB002F8C6E /* mysystemc */,
+				A936F7AC1FE7CDFB002F8C6E /* Products */,
+				A936F7B51FEAE1AC002F8C6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A936F7AC1FE7CDFB002F8C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A936F7AB1FE7CDFB002F8C6E /* mysystemc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A936F7AD1FE7CDFB002F8C6E /* mysystemc */ = {
+			isa = PBXGroup;
+			children = (
+				A936F7AE1FE7CDFB002F8C6E /* main.cpp */,
+			);
+			path = mysystemc;
+			sourceTree = "<group>";
+		};
+		A936F7B51FEAE1AC002F8C6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A936F7BF1FEAE975002F8C6E /* libsystemc.a */,
+				A936F7BD1FEAE319002F8C6E /* lib-macosx64 */,
+				A936F7BA1FEAE266002F8C6E /* libsystemc-2.3.2.dylib */,
+				A936F7B81FEAE256002F8C6E /* libsystemc.a */,
+				A936F7B61FEAE1AD002F8C6E /* libsystemc-2.3.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A936F7AA1FE7CDFB002F8C6E /* mysystemc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A936F7B21FE7CDFB002F8C6E /* Build configuration list for PBXNativeTarget "mysystemc" */;
+			buildPhases = (
+				A936F7A71FE7CDFB002F8C6E /* Sources */,
+				A936F7A81FE7CDFB002F8C6E /* Frameworks */,
+				A936F7A91FE7CDFB002F8C6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mysystemc;
+			productName = mysystemc;
+			productReference = A936F7AB1FE7CDFB002F8C6E /* mysystemc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A936F7A31FE7CDFB002F8C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Bill;
+				TargetAttributes = {
+					A936F7AA1FE7CDFB002F8C6E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A936F7A61FE7CDFB002F8C6E /* Build configuration list for PBXProject "mysystemc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A936F7A21FE7CDFB002F8C6E;
+			productRefGroup = A936F7AC1FE7CDFB002F8C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A936F7AA1FE7CDFB002F8C6E /* mysystemc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A936F7A71FE7CDFB002F8C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A936F7AF1FE7CDFB002F8C6E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A936F7B01FE7CDFB002F8C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A936F7B11FE7CDFB002F8C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A936F7B31FE7CDFB002F8C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Library/SystemC/systemc-2.2.0/include";
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/SystemC/systemc-2.2.0/lib-macosx",
+					"$(LOCAL_LIBRARY_DIR)/SystemC/systemc-2.2.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A936F7B41FE7CDFB002F8C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"/Library/SystemC/systemc-2.2.0/lib-macosx",
+					"$(LOCAL_LIBRARY_DIR)/SystemC/systemc-2.2.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A936F7A61FE7CDFB002F8C6E /* Build configuration list for PBXProject "mysystemc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A936F7B01FE7CDFB002F8C6E /* Debug */,
+				A936F7B11FE7CDFB002F8C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A936F7B21FE7CDFB002F8C6E /* Build configuration list for PBXNativeTarget "mysystemc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A936F7B31FE7CDFB002F8C6E /* Debug */,
+				A936F7B41FE7CDFB002F8C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A936F7A31FE7CDFB002F8C6E /* Project object */;
+}

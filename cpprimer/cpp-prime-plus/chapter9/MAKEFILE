@@ -1,0 +1,6 @@
+
+CC = g++
+CCFLAGS =  -Wall -O0 -g 
+
+newdynm: newdynm.cpp
+	$(CC) $(CCFLAGS) -o $@ $<
